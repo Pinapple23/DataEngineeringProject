@@ -1,0 +1,72 @@
+[2022-12-16T21:29:24.022+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.extract_dataset scheduled__2022-12-14T00:00:00+00:00 [queued]>
+[2022-12-16T21:29:24.042+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.extract_dataset scheduled__2022-12-14T00:00:00+00:00 [queued]>
+[2022-12-16T21:29:24.043+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T21:29:24.050+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2022-12-16T21:29:24.051+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T21:29:24.089+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_dataset> on 2022-12-14 00:00:00+00:00
+[2022-12-16T21:29:24.097+0000] {standard_task_runner.py:55} INFO - Started process 5179 to run task
+[2022-12-16T21:29:24.104+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'titanic_etl_pipeline', 'extract_dataset', 'scheduled__2022-12-14T00:00:00+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/titanic_etl.py', '--cfg-path', '/tmp/tmpanwcudg2']
+[2022-12-16T21:29:24.108+0000] {standard_task_runner.py:83} INFO - Job 42: Subtask extract_dataset
+[2022-12-16T21:29:24.242+0000] {task_command.py:389} INFO - Running <TaskInstance: titanic_etl_pipeline.extract_dataset scheduled__2022-12-14T00:00:00+00:00 [running]> on host ece303bd0765
+[2022-12-16T21:29:24.433+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=titanic_etl_pipeline
+AIRFLOW_CTX_TASK_ID=extract_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-14T00:00:00+00:00
+[2022-12-16T21:29:24.441+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/titanic_etl.py", line 14, in extract_clean
+    df = pd.read_csv(filename)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/util/_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 586, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 482, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 811, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/readers.py", line 1040, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/c_parser_wrapper.py", line 51, in __init__
+    self._open_handles(src, kwds)
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/parsers/base_parser.py", line 229, in _open_handles
+    errors=kwds.get("encoding_errors", "strict"),
+  File "/home/airflow/.local/lib/python3.7/site-packages/pandas/io/common.py", line 707, in get_handle
+    newline="",
+FileNotFoundError: [Errno 2] No such file or directory: 'titanic.csv'
+[2022-12-16T21:29:24.471+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=titanic_etl_pipeline, task_id=extract_dataset, execution_date=20221214T000000, start_date=20221216T212924, end_date=20221216T212924
+[2022-12-16T21:29:24.507+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 42 for task extract_dataset ([Errno 2] No such file or directory: 'titanic.csv'; 5179)
+[2022-12-16T21:29:24.557+0000] {local_task_job.py:159} INFO - Task exited with return code 1
+[2022-12-16T21:29:24.637+0000] {taskinstance.py:2582} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-12-16T22:41:29.155+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.extract_dataset scheduled__2022-12-14T00:00:00+00:00 [queued]>
+[2022-12-16T22:41:29.181+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.extract_dataset scheduled__2022-12-14T00:00:00+00:00 [queued]>
+[2022-12-16T22:41:29.182+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T22:41:29.182+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2022-12-16T22:41:29.183+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T22:41:29.222+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_dataset> on 2022-12-14 00:00:00+00:00
+[2022-12-16T22:41:29.230+0000] {standard_task_runner.py:55} INFO - Started process 9836 to run task
+[2022-12-16T22:41:29.238+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'titanic_etl_pipeline', 'extract_dataset', 'scheduled__2022-12-14T00:00:00+00:00', '--job-id', '69', '--raw', '--subdir', 'DAGS_FOLDER/titanic_etl.py', '--cfg-path', '/tmp/tmp07_13n9v']
+[2022-12-16T22:41:29.242+0000] {standard_task_runner.py:83} INFO - Job 69: Subtask extract_dataset
+[2022-12-16T22:41:29.373+0000] {task_command.py:389} INFO - Running <TaskInstance: titanic_etl_pipeline.extract_dataset scheduled__2022-12-14T00:00:00+00:00 [running]> on host 20ab0680b7da
+[2022-12-16T22:41:29.527+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=titanic_etl_pipeline
+AIRFLOW_CTX_TASK_ID=extract_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-14T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-12-14T00:00:00+00:00
+[2022-12-16T22:41:29.575+0000] {logging_mixin.py:137} INFO - loaded after cleaning succesfully
+[2022-12-16T22:41:29.576+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-16T22:41:29.595+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=titanic_etl_pipeline, task_id=extract_dataset, execution_date=20221214T000000, start_date=20221216T224129, end_date=20221216T224129
+[2022-12-16T22:41:29.651+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-16T22:41:29.716+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

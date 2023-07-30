@@ -1,0 +1,264 @@
+[2023-01-02T23:42:41.700+0000] {processor.py:153} INFO - Started process (PID=178) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:42:41.702+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:42:41.703+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:42:41.703+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:42:43.085+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:42:43.087+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:42:43.105+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:42:43.357+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:42:43.357+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:titanic_etl_pipeline
+[2023-01-02T23:42:43.374+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:42:43.374+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:titanic_etl_pipeline
+[2023-01-02T23:42:43.387+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:42:43.387+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:titanic_etl_pipeline
+[2023-01-02T23:42:43.388+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:42:43.388+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:42:43.401+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:42:43.401+0000] {dag.py:2697} INFO - Creating ORM DAG for titanic_etl_pipeline
+[2023-01-02T23:42:43.412+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:42:43.411+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:42:43.442+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 1.747 seconds
+[2023-01-02T23:43:13.823+0000] {processor.py:153} INFO - Started process (PID=256) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:43:13.825+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:43:13.827+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:43:13.827+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:43:14.517+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:43:14.518+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:43:14.525+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:43:14.553+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:43:14.553+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:43:14.575+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:43:14.574+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:43:14.607+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.786 seconds
+[2023-01-02T23:43:44.969+0000] {processor.py:153} INFO - Started process (PID=310) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:43:44.970+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:43:44.973+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:43:44.973+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:43:45.596+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:43:45.598+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:43:45.604+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:43:45.634+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:43:45.634+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:43:45.654+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:43:45.654+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:43:45.676+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.710 seconds
+[2023-01-02T23:44:16.006+0000] {processor.py:153} INFO - Started process (PID=388) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:44:16.007+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:44:16.008+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:44:16.008+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:44:16.569+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:44:16.571+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:44:16.577+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:44:16.658+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:44:16.657+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:44:16.692+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:44:16.691+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:44:16.724+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.722 seconds
+[2023-01-02T23:44:46.933+0000] {processor.py:153} INFO - Started process (PID=451) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:44:46.935+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:44:46.937+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:44:46.937+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:44:47.699+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:44:47.701+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:44:47.708+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:44:47.739+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:44:47.738+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:44:47.760+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:44:47.760+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:44:47.785+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.855 seconds
+[2023-01-02T23:45:18.158+0000] {processor.py:153} INFO - Started process (PID=520) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:45:18.160+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:45:18.163+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:45:18.163+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:45:18.818+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:45:18.820+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:45:18.828+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:45:18.856+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:45:18.856+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:45:18.875+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:45:18.874+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:45:18.901+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.748 seconds
+[2023-01-02T23:45:49.259+0000] {processor.py:153} INFO - Started process (PID=598) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:45:49.260+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:45:49.261+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:45:49.261+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:45:49.822+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:45:49.823+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:45:49.829+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:45:49.855+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:45:49.855+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:45:49.874+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:45:49.874+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:45:49.896+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.641 seconds
+[2023-01-02T23:46:19.969+0000] {processor.py:153} INFO - Started process (PID=652) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:46:19.970+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:46:19.971+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:46:19.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:46:20.540+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:46:20.541+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:46:20.547+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:46:20.573+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:46:20.572+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:46:20.590+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:46:20.590+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:46:20.623+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.657 seconds
+[2023-01-02T23:46:50.956+0000] {processor.py:153} INFO - Started process (PID=730) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:46:50.957+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:46:50.959+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:46:50.959+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:46:51.656+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:46:51.658+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:46:51.665+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:46:51.691+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:46:51.691+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:46:51.709+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:46:51.709+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:46:51.743+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.790 seconds
+[2023-01-02T23:47:21.907+0000] {processor.py:153} INFO - Started process (PID=785) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:47:21.910+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:47:21.912+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:47:21.912+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:47:22.651+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:47:22.652+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:47:22.659+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:47:22.684+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:47:22.683+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:47:22.702+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:47:22.702+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:47:22.724+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.823 seconds
+[2023-01-02T23:47:53.172+0000] {processor.py:153} INFO - Started process (PID=863) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:47:53.175+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:47:53.178+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:47:53.177+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:47:53.953+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:47:53.954+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:47:53.962+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:47:53.996+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:47:53.995+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:47:54.020+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:47:54.020+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:47:54.053+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.886 seconds
+[2023-01-02T23:48:24.487+0000] {processor.py:153} INFO - Started process (PID=917) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:48:24.489+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:48:24.491+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:48:24.491+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:48:25.162+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:48:25.164+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:48:25.171+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:48:25.204+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:48:25.203+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:48:25.224+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:48:25.224+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:48:25.248+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.770 seconds
+[2023-01-02T23:48:55.613+0000] {processor.py:153} INFO - Started process (PID=995) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:48:55.614+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:48:55.615+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:48:55.615+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:48:56.270+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:48:56.272+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:48:56.278+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:48:56.305+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:48:56.305+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:48:56.324+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:48:56.323+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:48:56.349+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.739 seconds
+[2023-01-02T23:49:26.702+0000] {processor.py:153} INFO - Started process (PID=1056) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:49:26.704+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:49:26.705+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:49:26.705+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:49:27.521+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:49:27.523+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:49:27.530+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:49:27.567+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:49:27.567+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:49:27.611+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:49:27.610+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:49:27.646+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.948 seconds
+[2023-01-02T23:49:58.003+0000] {processor.py:153} INFO - Started process (PID=1127) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:49:58.004+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:49:58.005+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:49:58.005+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:49:58.740+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:49:58.741+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:49:58.748+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:49:58.779+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:49:58.778+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:49:58.799+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:49:58.799+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:49:58.827+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.828 seconds
+[2023-01-02T23:50:29.154+0000] {processor.py:153} INFO - Started process (PID=1205) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:50:29.155+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:50:29.156+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:50:29.156+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:50:29.842+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:50:29.843+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:50:29.850+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:50:29.882+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:50:29.881+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:50:29.903+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:50:29.903+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:50:29.930+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.779 seconds
+[2023-01-02T23:51:00.100+0000] {processor.py:153} INFO - Started process (PID=1259) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:51:00.101+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:51:00.103+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:51:00.103+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:51:00.718+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:51:00.720+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:51:00.725+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:51:00.760+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:51:00.759+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:51:00.778+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:51:00.778+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:51:00.801+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.708 seconds
+[2023-01-02T23:51:31.207+0000] {processor.py:153} INFO - Started process (PID=1338) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:51:31.208+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:51:31.209+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:51:31.209+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:51:32.374+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:51:32.376+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:51:32.382+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:51:32.408+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:51:32.408+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:51:32.433+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:51:32.433+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:51:32.458+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 1.254 seconds
+[2023-01-02T23:52:02.532+0000] {processor.py:153} INFO - Started process (PID=1392) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:52:02.534+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:52:02.535+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:52:02.535+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:52:03.103+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:52:03.105+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:52:03.111+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:52:03.138+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:52:03.138+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:52:03.157+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:52:03.157+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:52:03.181+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.652 seconds
+[2023-01-02T23:52:33.510+0000] {processor.py:153} INFO - Started process (PID=1471) to work on /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:52:33.511+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/titanic_etl.py for tasks to queue
+[2023-01-02T23:52:33.512+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:52:33.512+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:52:34.070+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:11 UserWarning: 
+The dash_core_components package is deprecated. Please replace
+`import dash_core_components as dcc` with `from dash import dcc`
+[2023-01-02T23:52:34.072+0000] {logging_mixin.py:137} WARNING - /opt/airflow/dags/titanic_etl.py:12 UserWarning: 
+The dash_html_components package is deprecated. Please replace
+`import dash_html_components as html` with `from dash import html`
+[2023-01-02T23:52:34.078+0000] {processor.py:753} INFO - DAG(s) dict_keys(['titanic_etl_pipeline']) retrieved from /opt/airflow/dags/titanic_etl.py
+[2023-01-02T23:52:34.104+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:52:34.103+0000] {dag.py:2676} INFO - Sync 1 DAGs
+[2023-01-02T23:52:34.125+0000] {logging_mixin.py:137} INFO - [2023-01-02T23:52:34.125+0000] {dag.py:3427} INFO - Setting next_dagrun for titanic_etl_pipeline to 2022-12-31T00:00:00+00:00, run_after=2022-12-31T00:00:00+00:00
+[2023-01-02T23:52:34.147+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/titanic_etl.py took 0.642 seconds

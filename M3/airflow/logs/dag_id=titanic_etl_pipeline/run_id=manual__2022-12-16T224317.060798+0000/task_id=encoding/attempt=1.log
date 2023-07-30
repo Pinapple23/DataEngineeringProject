@@ -1,0 +1,24 @@
+[2022-12-16T22:43:24.636+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.encoding manual__2022-12-16T22:43:17.060798+00:00 [queued]>
+[2022-12-16T22:43:24.654+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.encoding manual__2022-12-16T22:43:17.060798+00:00 [queued]>
+[2022-12-16T22:43:24.655+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T22:43:24.663+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2022-12-16T22:43:24.664+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T22:43:24.692+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): encoding> on 2022-12-16 22:43:17.060798+00:00
+[2022-12-16T22:43:24.700+0000] {standard_task_runner.py:55} INFO - Started process 10912 to run task
+[2022-12-16T22:43:24.705+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'titanic_etl_pipeline', 'encoding', 'manual__2022-12-16T22:43:17.060798+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/titanic_etl.py', '--cfg-path', '/tmp/tmpk0y_v9no']
+[2022-12-16T22:43:24.709+0000] {standard_task_runner.py:83} INFO - Job 76: Subtask encoding
+[2022-12-16T22:43:24.824+0000] {task_command.py:389} INFO - Running <TaskInstance: titanic_etl_pipeline.encoding manual__2022-12-16T22:43:17.060798+00:00 [running]> on host 20ab0680b7da
+[2022-12-16T22:43:24.973+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=titanic_etl_pipeline
+AIRFLOW_CTX_TASK_ID=encoding
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-16T22:43:17.060798+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-16T22:43:17.060798+00:00
+[2022-12-16T22:43:25.009+0000] {logging_mixin.py:137} INFO - file already exists
+[2022-12-16T22:43:25.010+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-16T22:43:25.027+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=titanic_etl_pipeline, task_id=encoding, execution_date=20221216T224317, start_date=20221216T224324, end_date=20221216T224325
+[2022-12-16T22:43:25.079+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-16T22:43:25.122+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

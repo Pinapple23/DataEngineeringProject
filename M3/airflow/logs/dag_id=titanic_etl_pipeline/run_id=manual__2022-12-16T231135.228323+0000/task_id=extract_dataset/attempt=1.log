@@ -1,0 +1,24 @@
+[2022-12-16T23:11:38.328+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.extract_dataset manual__2022-12-16T23:11:35.228323+00:00 [queued]>
+[2022-12-16T23:11:38.347+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.extract_dataset manual__2022-12-16T23:11:35.228323+00:00 [queued]>
+[2022-12-16T23:11:38.348+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T23:11:38.356+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2022-12-16T23:11:38.356+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T23:11:38.385+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): extract_dataset> on 2022-12-16 23:11:35.228323+00:00
+[2022-12-16T23:11:38.395+0000] {standard_task_runner.py:55} INFO - Started process 1092 to run task
+[2022-12-16T23:11:38.401+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'titanic_etl_pipeline', 'extract_dataset', 'manual__2022-12-16T23:11:35.228323+00:00', '--job-id', '91', '--raw', '--subdir', 'DAGS_FOLDER/titanic_etl.py', '--cfg-path', '/tmp/tmpqvm7357z']
+[2022-12-16T23:11:38.405+0000] {standard_task_runner.py:83} INFO - Job 91: Subtask extract_dataset
+[2022-12-16T23:11:38.538+0000] {task_command.py:389} INFO - Running <TaskInstance: titanic_etl_pipeline.extract_dataset manual__2022-12-16T23:11:35.228323+00:00 [running]> on host 14c90533c456
+[2022-12-16T23:11:38.708+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=titanic_etl_pipeline
+AIRFLOW_CTX_TASK_ID=extract_dataset
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-16T23:11:35.228323+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-16T23:11:35.228323+00:00
+[2022-12-16T23:11:38.760+0000] {logging_mixin.py:137} INFO - loaded after cleaning succesfully
+[2022-12-16T23:11:38.761+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-12-16T23:11:38.781+0000] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=titanic_etl_pipeline, task_id=extract_dataset, execution_date=20221216T231135, start_date=20221216T231138, end_date=20221216T231138
+[2022-12-16T23:11:38.854+0000] {local_task_job.py:159} INFO - Task exited with return code 0
+[2022-12-16T23:11:38.915+0000] {taskinstance.py:2582} INFO - 1 downstream tasks scheduled from follow-on schedule check

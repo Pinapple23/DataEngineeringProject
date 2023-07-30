@@ -1,0 +1,67 @@
+[2022-12-16T22:29:39.492+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.create_dashboard_task manual__2022-12-16T22:29:29.364174+00:00 [queued]>
+[2022-12-16T22:29:39.513+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.create_dashboard_task manual__2022-12-16T22:29:29.364174+00:00 [queued]>
+[2022-12-16T22:29:39.514+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T22:29:39.522+0000] {taskinstance.py:1284} INFO - Starting attempt 1 of 2
+[2022-12-16T22:29:39.523+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-16T22:29:39.557+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): create_dashboard_task> on 2022-12-16 22:29:29.364174+00:00
+[2022-12-16T22:29:39.563+0000] {standard_task_runner.py:55} INFO - Started process 655 to run task
+[2022-12-16T22:29:39.568+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'titanic_etl_pipeline', 'create_dashboard_task', 'manual__2022-12-16T22:29:29.364174+00:00', '--job-id', '60', '--raw', '--subdir', 'DAGS_FOLDER/titanic_etl.py', '--cfg-path', '/tmp/tmpr0n9evp8']
+[2022-12-16T22:29:39.571+0000] {standard_task_runner.py:83} INFO - Job 60: Subtask create_dashboard_task
+[2022-12-16T22:29:39.679+0000] {task_command.py:389} INFO - Running <TaskInstance: titanic_etl_pipeline.create_dashboard_task manual__2022-12-16T22:29:29.364174+00:00 [running]> on host 20ab0680b7da
+[2022-12-16T22:29:39.819+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=titanic_etl_pipeline
+AIRFLOW_CTX_TASK_ID=create_dashboard_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-16T22:29:29.364174+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-16T22:29:29.364174+00:00
+[2022-12-16T22:29:39.863+0000] {logging_mixin.py:137} INFO - Dash is running on http://127.0.0.1:8050/
+[2022-12-16T22:29:39.863+0000] {dash.py:1968} INFO - Dash is running on http://127.0.0.1:8050/
+
+[2022-12-16T22:29:39.895+0000] {logging_mixin.py:137} INFO -  * Serving Flask app '***'
+[2022-12-16T22:29:39.896+0000] {logging_mixin.py:137} INFO -  * Debug mode: on
+[2022-12-16T22:38:47.418+0000] {local_task_job.py:224} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2022-12-16T22:38:47.426+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 655. PIDs of all processes in the group: [657, 697, 698, 706, 708, 711, 715, 718, 722, 726, 730, 734, 737, 740, 744, 749, 752, 756, 760, 765, 768, 771, 777, 780, 785, 789, 793, 797, 803, 807, 811, 814, 819, 824, 827, 832, 655]
+[2022-12-16T22:38:47.427+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 655
+[2022-12-16T22:38:47.463+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=657, status='terminated', started='22:29:39') (657) terminated with exit code None
+[2022-12-16T22:38:47.468+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=756, status='terminated', started='22:29:44') (756) terminated with exit code None
+[2022-12-16T22:38:47.469+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=827, status='terminated', started='22:29:45') (827) terminated with exit code None
+[2022-12-16T22:38:47.470+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=793, status='terminated', started='22:29:45') (793) terminated with exit code None
+[2022-12-16T22:38:47.471+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=819, status='terminated', started='22:29:45') (819) terminated with exit code None
+[2022-12-16T22:38:47.472+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=765, status='terminated', started='22:29:44') (765) terminated with exit code None
+[2022-12-16T22:38:47.473+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=715, status='terminated', started='22:29:44') (715) terminated with exit code None
+[2022-12-16T22:38:47.477+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=797, status='terminated', started='22:29:45') (797) terminated with exit code None
+[2022-12-16T22:38:47.479+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=711, status='terminated', started='22:29:44') (711) terminated with exit code None
+[2022-12-16T22:38:47.480+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=708, status='terminated', started='22:29:44') (708) terminated with exit code None
+[2022-12-16T22:38:47.481+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=752, status='terminated', started='22:29:44') (752) terminated with exit code None
+[2022-12-16T22:38:47.482+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=734, status='terminated', started='22:29:44') (734) terminated with exit code None
+[2022-12-16T22:38:47.483+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=789, status='terminated', started='22:29:44') (789) terminated with exit code None
+[2022-12-16T22:38:47.484+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=744, status='terminated', started='22:29:44') (744) terminated with exit code None
+[2022-12-16T22:38:47.485+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=726, status='terminated', started='22:29:44') (726) terminated with exit code None
+[2022-12-16T22:38:47.514+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=722, status='terminated', started='22:29:44') (722) terminated with exit code None
+[2022-12-16T22:38:47.515+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=697, status='terminated', started='22:29:44') (697) terminated with exit code None
+[2022-12-16T22:38:47.516+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=814, status='terminated', started='22:29:45') (814) terminated with exit code None
+[2022-12-16T22:38:47.518+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=718, status='terminated', started='22:29:44') (718) terminated with exit code None
+[2022-12-16T22:38:47.519+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=824, status='terminated', started='22:29:45') (824) terminated with exit code None
+[2022-12-16T22:38:47.520+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=740, status='terminated', started='22:29:44') (740) terminated with exit code None
+[2022-12-16T22:38:47.521+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=706, status='terminated', started='22:29:44') (706) terminated with exit code None
+[2022-12-16T22:38:47.523+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=811, status='terminated', started='22:29:45') (811) terminated with exit code None
+[2022-12-16T22:38:47.524+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=771, status='terminated', started='22:29:44') (771) terminated with exit code None
+[2022-12-16T22:38:47.525+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=698, status='terminated', started='22:29:44') (698) terminated with exit code None
+[2022-12-16T22:38:47.526+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=737, status='terminated', started='22:29:44') (737) terminated with exit code None
+[2022-12-16T22:38:47.527+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=803, status='terminated', started='22:29:45') (803) terminated with exit code None
+[2022-12-16T22:38:47.528+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=749, status='terminated', started='22:29:44') (749) terminated with exit code None
+[2022-12-16T22:38:47.529+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=768, status='terminated', started='22:29:44') (768) terminated with exit code None
+[2022-12-16T22:38:47.530+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=780, status='terminated', started='22:29:44') (780) terminated with exit code None
+[2022-12-16T22:38:47.531+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=807, status='terminated', started='22:29:45') (807) terminated with exit code None
+[2022-12-16T22:38:47.532+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=785, status='terminated', started='22:29:44') (785) terminated with exit code None
+[2022-12-16T22:38:47.533+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=760, status='terminated', started='22:29:44') (760) terminated with exit code None
+[2022-12-16T22:38:47.534+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=655, status='terminated', exitcode=0, started='22:29:38') (655) terminated with exit code 0
+[2022-12-16T22:38:47.535+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=777, status='terminated', started='22:29:44') (777) terminated with exit code None
+[2022-12-16T22:38:48.072+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=730, status='terminated', started='22:29:44') (730) terminated with exit code None
+[2022-12-16T22:39:47.436+0000] {process_utils.py:147} WARNING - process psutil.Process(pid=832, name='airflow scheduler -- DagFileProcessorManager', status='running', started='22:29:45') did not respond to SIGTERM. Trying SIGKILL
+[2022-12-16T22:39:47.438+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGKILL to group 655
+[2022-12-16T22:39:47.439+0000] {process_utils.py:99} INFO - Sending the signal Signals.SIGKILL to process 655 as process group is missing.
+[2022-12-16T22:40:47.441+0000] {process_utils.py:158} ERROR - Process psutil.Process(pid=832, name='airflow scheduler -- DagFileProcessorManager', status='sleeping', started='22:29:45') (832) could not be killed. Giving up.

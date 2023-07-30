@@ -1,0 +1,61 @@
+[2022-12-17T10:43:40.794+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.create_dashboard_task manual__2022-12-16T23:20:48.161643+00:00 [queued]>
+[2022-12-17T10:43:40.816+0000] {taskinstance.py:1087} INFO - Dependencies all met for <TaskInstance: titanic_etl_pipeline.create_dashboard_task manual__2022-12-16T23:20:48.161643+00:00 [queued]>
+[2022-12-17T10:43:40.816+0000] {taskinstance.py:1283} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-17T10:43:40.823+0000] {taskinstance.py:1284} INFO - Starting attempt 2 of 2
+[2022-12-17T10:43:40.824+0000] {taskinstance.py:1285} INFO - 
+--------------------------------------------------------------------------------
+[2022-12-17T10:43:40.854+0000] {taskinstance.py:1304} INFO - Executing <Task(PythonOperator): create_dashboard_task> on 2022-12-16 23:20:48.161643+00:00
+[2022-12-17T10:43:40.862+0000] {standard_task_runner.py:55} INFO - Started process 196 to run task
+[2022-12-17T10:43:40.869+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'titanic_etl_pipeline', 'create_dashboard_task', 'manual__2022-12-16T23:20:48.161643+00:00', '--job-id', '103', '--raw', '--subdir', 'DAGS_FOLDER/titanic_etl.py', '--cfg-path', '/tmp/tmpduhh4671']
+[2022-12-17T10:43:40.873+0000] {standard_task_runner.py:83} INFO - Job 103: Subtask create_dashboard_task
+[2022-12-17T10:43:40.981+0000] {task_command.py:389} INFO - Running <TaskInstance: titanic_etl_pipeline.create_dashboard_task manual__2022-12-16T23:20:48.161643+00:00 [running]> on host 3b51f8facfba
+[2022-12-17T10:43:41.134+0000] {taskinstance.py:1513} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=titanic_etl_pipeline
+AIRFLOW_CTX_TASK_ID=create_dashboard_task
+AIRFLOW_CTX_EXECUTION_DATE=2022-12-16T23:20:48.161643+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-12-16T23:20:48.161643+00:00
+[2022-12-17T10:43:41.311+0000] {logging_mixin.py:137} INFO - Dash is running on http://0.0.0.0:8050/
+[2022-12-17T10:43:41.311+0000] {dash.py:1968} INFO - Dash is running on http://0.0.0.0:8050/
+
+[2022-12-17T10:43:41.332+0000] {logging_mixin.py:137} INFO -  * Serving Flask app '***'
+[2022-12-17T10:43:41.332+0000] {logging_mixin.py:137} INFO -  * Debug mode: off
+[2022-12-17T10:43:41.334+0000] {_internal.py:224} INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8050
+ * Running on http://172.31.0.3:8050
+[2022-12-17T10:43:41.334+0000] {_internal.py:224} INFO - [33mPress CTRL+C to quit[0m
+[2022-12-17T11:03:29.917+0000] {local_task_job.py:224} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2022-12-17T11:03:29.927+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 196. PIDs of all processes in the group: [196]
+[2022-12-17T11:03:29.928+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 196
+[2022-12-17T11:03:29.929+0000] {taskinstance.py:1483} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-12-17T11:03:29.959+0000] {taskinstance.py:1772} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/titanic_etl.py", line 84, in create_dashboard
+    print('dashboard is successful and running on port 8000')
+  File "/home/airflow/.local/lib/python3.7/site-packages/dash/dash.py", line 2133, in run_server
+    self.run(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/dash/dash.py", line 1980, in run
+    self.server.run(host=host, port=port, debug=debug, **flask_run_options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/flask/app.py", line 1188, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/home/airflow/.local/lib/python3.7/site-packages/werkzeug/serving.py", line 1098, in run_simple
+    srv.serve_forever()
+  File "/home/airflow/.local/lib/python3.7/site-packages/werkzeug/serving.py", line 741, in serve_forever
+    super().serve_forever(poll_interval=poll_interval)
+  File "/usr/local/lib/python3.7/socketserver.py", line 232, in serve_forever
+    ready = selector.select(poll_interval)
+  File "/usr/local/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1485, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2022-12-17T11:03:30.034+0000] {taskinstance.py:1327} INFO - Marking task as UP_FOR_RETRY. dag_id=titanic_etl_pipeline, task_id=create_dashboard_task, execution_date=20221216T232048, start_date=20221217T104340, end_date=20221217T110330
+[2022-12-17T11:03:30.057+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 103 for task create_dashboard_task (Task received SIGTERM signal; 196)
+[2022-12-17T11:03:30.103+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=196, status='terminated', exitcode=1, started='10:43:40') (196) terminated with exit code 1
